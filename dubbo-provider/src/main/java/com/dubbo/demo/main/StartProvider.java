@@ -3,6 +3,7 @@ package com.dubbo.demo.main;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 public class StartProvider {
 
@@ -12,5 +13,11 @@ public class StartProvider {
         ClassPathXmlApplicationContext content = new ClassPathXmlApplicationContext("dubbo-provider.xml");
         content.start();
         System.in.read();
+
+
     }
+
+
+
+
 }
